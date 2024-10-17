@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script>
+        function mifuncion() {
+            var nom = document.getElementById("name").value;
+            var apellido = document.getElementById("apellido").value;
+            alert ('Bienvenido'+ nom + apellido )
+        }
+       
+
+    </script>
+</head>
+<body>
+    <h1>Practica</h1>   
+    
+    <p>Introduce nombre <input type="text" id="name"> Introduce apellido1 <input type="text" id="apellido" onblur="mifuncion()"></p>
+</body>
+</html>
